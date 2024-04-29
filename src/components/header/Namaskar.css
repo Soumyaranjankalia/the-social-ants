@@ -1,0 +1,44 @@
+.namaskarContainer {
+    Background-color: #1D1D1D;
+    overflow: hidden; /* Ensure the text does not overflow the container */
+    position: relative;
+    width: 100%;
+}
+
+.marquee {
+    display: flex;
+    overflow: hidden;
+    height: 13vh;
+    user-select: none;
+    gap: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    animation: marquee-scroll 14s linear infinite reverse;
+}
+
+@keyframes marquee-scroll {
+    0% {
+        transform: translateX(100%); /* Start scrolling from right to left */
+    }
+    100% {
+        transform: translateX(-100%); /* End scrolling at the left side */
+    }
+}
+
+.marquee__group {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    min-width: 100%;
+}
+
+.marquee__group span{
+    color: white;
+    font-size: 10vw;
+    font-weight: 700;
+    white-space: nowrap;
+    font-family: 'Syne', sans-serif !important;
+    text-transform: uppercase;
+}

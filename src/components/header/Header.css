@@ -1,0 +1,40 @@
+.headerContainer {
+    margin: auto;
+    width: 1140px;
+    background-color: rgb(31,6,43);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centers the items vertically */
+    padding:20px 20px;
+    
+}
+.headerLogo{
+    padding-left: 10px;
+}
+.headerLogo img {
+    max-width: 100%; /* Ensure the logo doesn't exceed its container's width */
+}
+.logo{
+    width: 110px;
+    height: 120px;
+}
+.headerButton {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+.headerButton > button {
+    width: 63px;
+    height: 43px;
+    fill: #000000;
+    color: #000000;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #fff;
+    transition: all .3s;
+    background-color: #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+}

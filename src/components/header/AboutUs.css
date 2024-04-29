@@ -1,0 +1,167 @@
+.aboutUs-Container {
+  padding-top: 80px;
+  background-color: #fafbfc;
+  padding-bottom: 1px;
+}
+.aboutUs-one {
+  display: flex;
+  flex-direction: column;
+}
+.aboutUs-header {
+  text-align: center;
+}
+
+.aboutUs-header > h2 {
+  color: #2b1055;
+  margin: 0px 0px 20px 0px;
+  font-family: "Poppins", Sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.aboutUs-bar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap:10px;
+}
+
+.aboutUs-bar > .line {
+  height: 3px;
+  width: 50px;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 30px;
+}
+
+.aboutUs-des {
+  text-align: center;
+}
+
+.aboutUs-des > p {
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-left: 73px;
+  margin-right: 73px;
+  line-height: 24px;
+}
+.aboutUs-two {
+  text-align: center;
+  margin-top: 30px;
+}
+.aboutUs-two > a {
+  margin: auto;
+  width: 161px;
+  height: 41px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  fill: #000000;
+  color: #000000;
+  background-color: #ffcc39;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 15px;
+  gap: 7px;
+}
+
+.AboutUs-three {
+  display: flex;
+  gap: 35px;
+  justify-content: space-between;
+  margin: 50px 100px 30px 100px;
+}
+
+.ourPhilosophy,
+.ourApproach,
+.ourExpertise {
+  width: 100%;
+  max-width: 1140px;
+  height: 466px;
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center !important;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  position: relative;
+}
+
+.philosophyDiv {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.philosophyLogo {
+  background-color: #2b1055;
+  /* border-style: solid; */
+  /* border-width: 6px 6px 6px 6px; */
+  border-color: rgba(2, 1, 1, 0);
+  border-radius: 100px;
+  height: 55px;
+  padding: 15px 10px 15px 10px;
+  width: 65px;
+  line-height: 50px;
+  text-align: center !important;
+  margin-top: 50px;
+}
+
+.philosophyLogo > svg {
+  max-width: 40px;
+  /* line-height: 50px; */
+  height: auto;
+  color: #ffffff !important;
+  overflow: hidden;
+  display: inline;
+  text-align: center !important;
+  fill: white !important;
+}
+
+.philosophyDetails {
+  text-align: center !important;
+}
+
+.philosophyDetails > h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.philosophyDetails > p {
+  color: #656565;
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px 0px 35px 0px;
+  margin-left: 12px;
+  margin-right: 12px;
+  line-height: 22px;
+}
+
+.readMore {
+  position: absolute;
+  width: 100%;
+  bottom: 25px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 30px 0px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-style: normal;
+  text-decoration: underline;
+  color: #2b1055;
+  background-color: rgba(2, 1, 1, 0);
+}
+ .readMore > a {
+  text-align: center;
+ }

@@ -1,0 +1,33 @@
+.letterContainer {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #1D0423 0%, #2B1055 100%);
+}
+
+.innovate {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.innovate > p {
+    color: #FFFFFF;
+    font-family: "Sen", Sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.socialAnt {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.socialAnt > p {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    margin-top:-25px ;
+}
